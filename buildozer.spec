@@ -1,16 +1,25 @@
 [app]
-title = StreamBox
-package.name = streambox
-package.domain = org.delal
+title = My Final App
+package.name = streamboxapp
+package.domain = org.dalal
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,requests,urllib3,idna,charset-normalizer,certifi
+requirements = python3,kivy
+
 orientation = portrait
+osx.python_version = 3
+osx.kivy_version = 1.9.1
 fullscreen = 0
+
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
-ios.kivy_ios_url = https://github.com/kivy/kivy-ios
-ios.kivy_ios_branch = master
-ios.ios_deploy_url = https://github.com/ios-control/ios-deploy
-ios.ios_deploy_branch = 1.10.0
+android.accept_sdk_license = True
+android.skip_update = False
+android.minapi = 21
+android.ndk_path = 
+android.sdk_path = 
+
+[buildozer]
+log_level = 2
+warn_on_root = 1
