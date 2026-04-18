@@ -1,24 +1,14 @@
 [app]
-title = My Final App
-package.name = streamboxapp
-package.domain = org.dalal
+title = MyFinalApp
+package.name = myfinalapp
+package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy
-
 orientation = portrait
-osx.python_version = 3
-osx.kivy_version = 1.9.1
-fullscreen = 0
-
 android.archs = arm64-v8a, armeabi-v7a
-android.allow_backup = True
 android.accept_sdk_license = True
-android.skip_update = False
-android.minapi = 21
-android.ndk_path = 
-android.sdk_path = 
 
 [buildozer]
 log_level = 2
