@@ -1,6 +1,6 @@
 [app]
 title = MyFinalApp
-package.name = myapp
+package.name = myappdalal
 package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
